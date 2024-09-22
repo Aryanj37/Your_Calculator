@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+    font-family: PP mori;
+   
+    text-align: center;
+   
+}
+
+html, body {
+    background-image: url("https://plus.unsplash.com/premium_photo-1673796717297-0b0085f1cb39?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    height: 100%;
+    width: 100%;
+    
+}
+
+#box{
+    background-image: url("https://plus.unsplash.com/premium_photo-1673796717297-0b0085f1cb39?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    height: 500px;
+    width: 400px;
+    padding: 20px;
+    margin: 0 auto;
+    margin-top:50px;
+    border-radius: 10px;
+   }
+   button{
+    box-shadow: 0 0 5px pink,
+    0 0 25px pink
+   }
+
+   button:hover{
+    box-shadow: 0 0 5px pink,
+    0 0 25px rgb(255, 192, 201), 0 0 50px rgb(255, 188, 202),
+    0 0 100px pink, 0 0 200px pink;
+   }
+
+   #calculate{
+    width: 150px;
+    height: 50px;
+    background-color: pink;
+    color: white;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+   }
+
+   #result-percentage{
+    font-size: 20px;
+    font-weight: 800;
+    color: black;
+   }
